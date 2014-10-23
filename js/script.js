@@ -124,11 +124,6 @@ function init() {
 
 	//
 
-	THREEx.WindowResize(renderer, camera);
-	THREEx.FullScreen.bindKey({charCode: 'm'.charCodeAt(0)});
-
-	//
-
 	controls = new THREE.OrbitControls(camera, renderer.domElement);
 
 	//
